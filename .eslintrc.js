@@ -22,6 +22,7 @@ module.exports = {
     "import/order": 0,
     "import/no-duplicates": 0,
     "no-unused-vars": 0,
-    "no-console": 0
+    "no-console": 0,
+    "promise/prefer-await-to-callbacks": 0
   },
 }
