@@ -1,4 +1,4 @@
-import { GlobalStyles } from "./modules/defineds/styles.js";
+import { GlobalStyles } from "./modules/defines/styles.js";
 import Section from "./pages/Section";
 
 function App() {
