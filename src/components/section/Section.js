@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
-import { palette, size } from "../../modules/defines/styles";
+import { palette } from "../../modules/defines/styles";
 
 const fadeIn = keyframes`
   from {
