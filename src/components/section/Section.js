@@ -31,12 +31,13 @@ const SectionRightWrapper = styled.div`
   width: 417px;
   display: flex;
   flex-direction: column;
+  margin-top: -85px;
 `;
 
 const InfoWrapper = styled.div`
   height: 190px;
   font-size: 36px;
-  margin-bottom: ${props => (props.state < 2 && '54px')};
+  margin-bottom: ${props => (props.state < 2 && '84px')};
   animation: ${fadeIn} 700ms ease-in-out 0s;
 `;
 
@@ -49,6 +50,7 @@ const InfoMedalImgWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
   animation: ${fadeIn} 700ms ease-in-out 0s;
 `;
 
